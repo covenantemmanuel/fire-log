@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMPAYOUT Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <center>
+    <div id="auth-section">
+        <h2>Register / Login</h2>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <h4>To rest your password kindly message the live chat bot</h4>
+        <button id="register-btn">Register</button>
+        <button id="login-btn">Login</button>
+        <p id="auth-status"></p>
+    </div>
+</center>
+
+    <div id="user-section" style="display: none;">
+        <h3>Welcome! <span id="user-email"></span></h3>
+        <p>You are logged in: <span id="user-email"></span></p>
+        <button id="logout-btn">Logout</button>
+    </div>
+
+
+   
+    <script type="module" src="app.js"></script>
+</body>
