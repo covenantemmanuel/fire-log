@@ -134,7 +134,7 @@ margin-top: 0;
   }
 
   .p1{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .c1{
     height: 90px;
@@ -261,4 +261,5 @@ margin-top: 0;
 
 .image-slider img.active {
     opacity: 1;
+
 }
