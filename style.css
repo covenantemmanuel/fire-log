@@ -8,14 +8,14 @@ body{
     margin-top: 25%;
     justify-content: center;
     border-radius: 10px;
-    width: 370px;
+    width: 300px;
     padding: 20px 10px;
     border: solid white;
 }
 
  #auth-section input{
-    width: 310px;
-    height: 20px;
+    width: 250px;
+    height: 25px;
     margin-top: 10px;
  }
 
